@@ -1,0 +1,44 @@
+{
+  "schema": "veriswarm.rescue.model_release.v1",
+  "status": "codex_generated_candidate",
+  "release_tag": "candidate-2026-08-23",
+  "model_id": "sar-rgb-person-v1",
+  "output_class": "person_candidate",
+  "embedded_class": "item",
+  "class_binding": "ultralytics_single_cls_item_to_person_candidate",
+  "release_qualified": false,
+  "models": [
+    {
+      "name": "yolov8n-640",
+      "asset": "yolov8n-640-best.pt",
+      "sha256": "b794911b3a29f05e28c32717ce1e29074b5621e02267f6cef54ff82ede857b8e",
+      "bytes": 6224554,
+      "imgsz": 640,
+      "batch": 1,
+      "epochs_recorded": 40,
+      "final_epoch_metrics": {
+        "precision": 0.62855,
+        "recall": 0.44069,
+        "map50": 0.48026,
+        "map50_95": 0.18716
+      },
+      "formal_completion_record_packaged": false
+    },
+    {
+      "name": "yolov8n-960",
+      "asset": "yolov8n-960-best.pt",
+      "sha256": "41ff406e02b28d0e05acbf567bbcefbbc1809fea6de5ddd24b5170d2aa735f2b",
+      "bytes": 6263146,
+      "imgsz": 960,
+      "batch": 1,
+      "epochs_recorded": 40,
+      "final_epoch_metrics": {
+        "precision": 0.70662,
+        "recall": 0.53769,
+        "map50": 0.60449,
+        "map50_95": 0.26561
+      },
+      "formal_completion_record_packaged": false
+    }
+  ]
+}

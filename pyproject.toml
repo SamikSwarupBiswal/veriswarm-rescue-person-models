@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "veriswarm-rescue-person-models"
+version = "0.1.0"
+description = "Hash-bound candidate rescue-person detectors and local inference tooling"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+authors = [{ name = "Samik Swarup Biswal" }]
+classifiers = [
+  "Private :: Do Not Upload",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.optional-dependencies]
+local = [
+  "numpy==2.2.6",
+  "opencv-python==4.13.0.92",
+  "ultralytics==8.4.56",
+]
+test = ["pytest>=8.3,<9"]
+
+[project.scripts]
+veriswarm-models = "veriswarm_rescue_models.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

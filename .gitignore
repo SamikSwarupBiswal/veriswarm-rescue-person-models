@@ -1,0 +1,38 @@
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datasets, weights, exports, and generated evidence stay outside Git
+data/
+datasets/
+outputs/
+runs/
+evidence/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.plan
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
