@@ -87,10 +87,3 @@ Export outside Git with the candidate's fixed input size and batch 1:
 
 Build TensorRT FP16 engines on the actual target Jetson, never on an RTX host.
 Follow [docs/JETSON.md](docs/JETSON.md).
-
-## Repository status
-
-Repository source, tests, manifests, and documentation are Codex-prepared
-automated candidate artifacts for Samik's review. They must not be reported as
-Samik human-completed, accepted, or release-qualified work without his explicit
-review and acceptance.
