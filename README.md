@@ -29,8 +29,7 @@ Neither checkpoint is release-qualified. See [MODEL_CARD.md](MODEL_CARD.md) and
 
 ## Windows quick start
 
-Requirements: Python 3.10-3.12, Git, and GitHub CLI authenticated for this
-private repository.
+Requirements: Python 3.10-3.12, Git, and GitHub CLI for release-asset download.
 
 ```powershell
 git clone https://github.com/SamikSwarupBiswal/veriswarm-rescue-person-models.git

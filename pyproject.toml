@@ -10,7 +10,6 @@ readme = "README.md"
 requires-python = ">=3.10,<3.13"
 authors = [{ name = "Samik Swarup Biswal" }]
 classifiers = [
-  "Private :: Do Not Upload",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
